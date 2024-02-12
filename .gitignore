@@ -3,3 +3,4 @@ venv
 .vscode
 amb_virt.txt
 test_teste.py
+__pycache__
