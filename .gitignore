@@ -5,3 +5,5 @@ amb_virt.txt
 test_teste.py
 __pycache__
 .pytest_cache
+django.txt
+launch.json
