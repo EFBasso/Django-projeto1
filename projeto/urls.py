@@ -1,5 +1,4 @@
-"""
-URL configuration for projeto project.
+""" URL configuration for projeto project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -13,10 +12,17 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+
+    # Protocólo HTTP:
+    # Request -> Response
 """
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('recipes.urls')),
+    # path('recipes/', include('recipes.urls')),  # recipes/
 ]
