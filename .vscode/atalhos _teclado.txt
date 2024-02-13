@@ -1,0 +1,10 @@
+crtl + n (coder runner)
+
+crtl + b (abrir e fechar explorador)
+
+crtl + e (explorer do vscode: pastas de arquivos)
+
+crtl + g (Git - código fonte)
+
+crtl + shift + x (mostrar extensões)
+
