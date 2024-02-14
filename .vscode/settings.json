@@ -3,9 +3,9 @@
     "javascript": "cls; node",
     "python": "cls; python -u",
   },
-  "window.zoomLevel": -0.6,
-  "editor.fontSize": 19,
-  "terminal.integrated.fontSize": 17,
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   "python.languageServer": "Pylance", // ms-python.vscode-pylance
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
@@ -59,8 +59,8 @@
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
   "emmet.includeLanguages": {
-    "django-html": "html", // batisteo.vscode-django
+    "django-html": "html, css", // batisteo.vscode-django
     "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
+    "typescript": "typescriptreact",
   }
 }
